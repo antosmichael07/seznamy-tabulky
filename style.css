@@ -1,12 +1,20 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 20vh;
-    margin-right: 20vh;
+}
+
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
 }
 
 h1 {
     text-align: center;
-    padding-bottom: 15px;
 }
 
 h2 {
@@ -14,6 +22,7 @@ h2 {
     background-color: darkred;
     color: white;
     padding: 10px;
+    margin: 0;
     border-radius: 12px;
 }
 
@@ -38,6 +47,7 @@ dt, dd {
 }
 
 table {
+    width: 100%;
     border-spacing: 0;
     border-collapse: separate;
     border: 1px solid black;
@@ -45,6 +55,16 @@ table {
 
 thead, tfoot {
     background-color: #ccc;
+}
+
+.nalevo-uprostred {
+    font-weight: normal;
+    text-align: left;
+}
+
+.napravo-uprostred {
+    font-weight: normal;
+    text-align: right;
 }
 
 th, td {
@@ -64,4 +84,13 @@ th, td {
 .celkove-pocty {
     text-align: right;
     color: red;
+}
+
+caption {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    background-color: #333;
+    padding: 5px;
+    margin-bottom: 10px;
 }
